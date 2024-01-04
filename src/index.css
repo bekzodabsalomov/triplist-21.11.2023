@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    @media screen and (max-width: 450px) {
+        #media{
+            @apply flex-col-reverse
+        }
+    }
+}
